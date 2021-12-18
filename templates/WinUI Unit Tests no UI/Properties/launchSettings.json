@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "$safeprojectname$ (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "$safeprojectname$ (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
