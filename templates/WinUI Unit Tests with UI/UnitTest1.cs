@@ -20,15 +20,5 @@ namespace $safeprojectname$
 
             Assert.IsNotNull(button);
         }
-
-        [AssemblyCleanup]
-        public static void Cleanup()
-        {
-            // Cleaning up the application's window since the test runner in VS otherwise would leave it open
-            App.Window.DispatcherQueue.TryEnqueue(() =>
-            {
-                App.Window.Close();
-            });
-        }
     }
 }
