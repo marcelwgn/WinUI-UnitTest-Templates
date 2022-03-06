@@ -2,6 +2,8 @@
 
 This project contains work in progress templates for unit testing WinUI 3 assemblies.
 
+You can download the extension from the [Visual Studio marketplace](https://marketplace.visualstudio.com/items?itemName=chingucoding.winuiunittesttemplates).
+
 ## Current limitations:
 
 * Debugger does not work with VS 2022
