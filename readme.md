@@ -10,7 +10,8 @@ You can download the extension from the [Visual Studio marketplace](https://mark
 * Test runs may occasionally fail with an error of "The active test run was aborted. Reason: Unable to communicate with test host process."
 	* Rebuilding the project or reopening the solution will often fixes this issue.
 * Debugger with VS 2019 does not register correctly that test run has completed; VS stays in debugging mode.
-* VS Test discovery "leaks" two window when running tests, i.e. the templates that host UI will leave a window open when started through the test runner and running the tests will also leave the app open.
+* > *VS Test discovery "leaks" two window when running tests, i.e. the templates that host UI will leave a window open when started through the test runner and running the tests will also leave the app open.*
+* This was a problem with WinAppSDK 1.0.0 but does not seem to be present with the latest version of Visual Studio 2022 and WinAppSDK 1.0.3
 
 #### Building
 1. Run the  `./CopyTemplatesToExtension.ps1` script to copy the templates to the extension.
