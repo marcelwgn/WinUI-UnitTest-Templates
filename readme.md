@@ -10,23 +10,27 @@ This extension has been updated to work with current stable WinUI and MSTest ver
 
 TargetFramework and TargetPlatformMinVersion are:
 
-```     <TargetFramework>net6.0-windows10.0.19041.0</TargetFramework>
-```     <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
+```
+     <TargetFramework>net6.0-windows10.0.19041.0</TargetFramework>
+     <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
+```
 
 Package references are:
 
-```     <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.4.230913002" />
-```     <PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.22621.756" />
-```     <PackageReference Include="MSTest.TestAdapter">
-```         <Version>3.1.1</Version>
-```     </PackageReference>
-```     <PackageReference Include="MSTest.TestFramework">
-```         <Version>3.1.1</Version>
-```     </PackageReference>
-```     <PackageReference Include="Microsoft.TestPlatform.TestHost">
-```         <Version>17.7.2</Version>
-```         <ExcludeAssets>build</ExcludeAssets>
-```     </PackageReference>
+```
+     <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.4.230913002" />
+     <PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.22621.756" />
+     <PackageReference Include="MSTest.TestAdapter">
+         <Version>3.1.1</Version>
+     </PackageReference>
+     <PackageReference Include="MSTest.TestFramework">
+         <Version>3.1.1</Version>
+     </PackageReference>
+     <PackageReference Include="Microsoft.TestPlatform.TestHost">
+         <Version>17.7.2</Version>
+         <ExcludeAssets>build</ExcludeAssets>
+     </PackageReference>
+```
 
 ## Current issues/limitations:
 
@@ -43,7 +47,7 @@ The Unit Test project must compile to a WinExe to support testing operations dis
 WinUI 3 does not support referencing a WinExe  project from another WinExe project - you will receive errors on build similar
 to the following:
 
-``` APPX1101: Payload contains two or more files with the same destination path 'resources.pri'
+` APPX1101: Payload contains two or more files with the same destination path 'resources.pri' `
 
 To support unit testing move all code under test to a WinUI Class Library project. The Class Library can then 
 be referenced from both the unit test project and the main application project. The application project becomes
