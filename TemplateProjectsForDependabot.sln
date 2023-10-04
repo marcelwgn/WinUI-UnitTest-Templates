@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTestApp with UI", "UnitTestApp with UI", "{C0E35EF2-EA4E-4D79-A59C-ED1637E8B04B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestApp", "templates\WinUI Unit Tests with UI\UnitTestApp.csproj", "{2560484D-4DB5-48B9-BC20-8E2AF26F526A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTestApp without UI", "UnitTestApp without UI", "{06DA25ED-9BA9-4C48-8EE1-1EB8412FEF23}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestApp", "templates\WinUI Unit Tests no UI\UnitTestApp.csproj", "{B9BF0AC4-F292-4C4D-9B08-133E92F7E884}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|arm64 = Debug|arm64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|arm64 = Release|arm64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2560484D-4DB5-48B9-BC20-8E2AF26F526A}.Debug|arm64.ActiveCfg = Debug|arm64
+		{2560484D-4DB5-48B9-BC20-8E2AF26F526A}.Debug|arm64.Build.0 = Debug|arm64
+		{2560484D-4DB5-48B9-BC20-8E2AF26F526A}.Debug|arm64.Deploy.0 = Debug|arm64
+		{2560484D-4DB5-48B9-BC20-8E2AF26F526A}.Debug|x64.ActiveCfg = Debug|x64
+		{2560484D-4DB5-48B9-BC20-8E2AF26F526A}.Debug|x64.Build.0 = Debug|x64
+		{2560484D-4DB5-48B9-BC20-8E2AF26F526A}.Debug|x64.Deploy.0 = Debug|x64
+		{2560484D-4DB5-48B9-BC20-8E2AF26F526A}.Debug|x86.ActiveCfg = Debug|x86
+		{2560484D-4DB5-48B9-BC20-8E2AF26F526A}.Debug|x86.Build.0 = Debug|x86
+		{2560484D-4DB5-48B9-BC20-8E2AF26F526A}.Debug|x86.Deploy.0 = Debug|x86
+		{2560484D-4DB5-48B9-BC20-8E2AF26F526A}.Release|arm64.ActiveCfg = Release|arm64
+		{2560484D-4DB5-48B9-BC20-8E2AF26F526A}.Release|arm64.Build.0 = Release|arm64
+		{2560484D-4DB5-48B9-BC20-8E2AF26F526A}.Release|arm64.Deploy.0 = Release|arm64
+		{2560484D-4DB5-48B9-BC20-8E2AF26F526A}.Release|x64.ActiveCfg = Release|x64
+		{2560484D-4DB5-48B9-BC20-8E2AF26F526A}.Release|x64.Build.0 = Release|x64
+		{2560484D-4DB5-48B9-BC20-8E2AF26F526A}.Release|x64.Deploy.0 = Release|x64
+		{2560484D-4DB5-48B9-BC20-8E2AF26F526A}.Release|x86.ActiveCfg = Release|x86
+		{2560484D-4DB5-48B9-BC20-8E2AF26F526A}.Release|x86.Build.0 = Release|x86
+		{2560484D-4DB5-48B9-BC20-8E2AF26F526A}.Release|x86.Deploy.0 = Release|x86
+		{B9BF0AC4-F292-4C4D-9B08-133E92F7E884}.Debug|arm64.ActiveCfg = Debug|arm64
+		{B9BF0AC4-F292-4C4D-9B08-133E92F7E884}.Debug|arm64.Build.0 = Debug|arm64
+		{B9BF0AC4-F292-4C4D-9B08-133E92F7E884}.Debug|arm64.Deploy.0 = Debug|arm64
+		{B9BF0AC4-F292-4C4D-9B08-133E92F7E884}.Debug|x64.ActiveCfg = Debug|x64
+		{B9BF0AC4-F292-4C4D-9B08-133E92F7E884}.Debug|x64.Build.0 = Debug|x64
+		{B9BF0AC4-F292-4C4D-9B08-133E92F7E884}.Debug|x64.Deploy.0 = Debug|x64
+		{B9BF0AC4-F292-4C4D-9B08-133E92F7E884}.Debug|x86.ActiveCfg = Debug|x86
+		{B9BF0AC4-F292-4C4D-9B08-133E92F7E884}.Debug|x86.Build.0 = Debug|x86
+		{B9BF0AC4-F292-4C4D-9B08-133E92F7E884}.Debug|x86.Deploy.0 = Debug|x86
+		{B9BF0AC4-F292-4C4D-9B08-133E92F7E884}.Release|arm64.ActiveCfg = Release|arm64
+		{B9BF0AC4-F292-4C4D-9B08-133E92F7E884}.Release|arm64.Build.0 = Release|arm64
+		{B9BF0AC4-F292-4C4D-9B08-133E92F7E884}.Release|arm64.Deploy.0 = Release|arm64
+		{B9BF0AC4-F292-4C4D-9B08-133E92F7E884}.Release|x64.ActiveCfg = Release|x64
+		{B9BF0AC4-F292-4C4D-9B08-133E92F7E884}.Release|x64.Build.0 = Release|x64
+		{B9BF0AC4-F292-4C4D-9B08-133E92F7E884}.Release|x64.Deploy.0 = Release|x64
+		{B9BF0AC4-F292-4C4D-9B08-133E92F7E884}.Release|x86.ActiveCfg = Release|x86
+		{B9BF0AC4-F292-4C4D-9B08-133E92F7E884}.Release|x86.Build.0 = Release|x86
+		{B9BF0AC4-F292-4C4D-9B08-133E92F7E884}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2560484D-4DB5-48B9-BC20-8E2AF26F526A} = {C0E35EF2-EA4E-4D79-A59C-ED1637E8B04B}
+		{B9BF0AC4-F292-4C4D-9B08-133E92F7E884} = {06DA25ED-9BA9-4C48-8EE1-1EB8412FEF23}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C59B2C56-2BE2-4DB0-A065-C0414EB2C5AA}
+	EndGlobalSection
+EndGlobal
