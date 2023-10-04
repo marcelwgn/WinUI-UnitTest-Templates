@@ -6,7 +6,7 @@ You can download the extension from the [Visual Studio marketplace](https://mark
 
 ## Updates
 
-This extension has been updated to work with current stable WinUI and MSTest versions as at 03 October 2023.
+This extension has been updated to work with current stable WinUI and MSTest versions as of 03 October 2023.
 
 TargetFramework and TargetPlatformMinVersion are:
 
@@ -42,16 +42,15 @@ Package references are:
 
 ## Usage
 
-The Unit Test project must compile to a WinExe to support testing operations dispatched to the UI thread.
+The Unit Test project must compile to a WinUI application (unpackaged app) to support testing operations dispatched to the UI thread.
 
-WinUI 3 does not support referencing a WinExe  project from another WinExe project - you will receive errors on build similar
-to the following:
+WinUI 3 does not support referencing one application project from another - you will receive errors on build similar to the following:
 
 ` APPX1101: Payload contains two or more files with the same destination path 'resources.pri' `
 
 To support unit testing move all code under test to a WinUI Class Library project. The Class Library can then 
 be referenced from both the unit test project and the main application project. The application project becomes
-a lightweight container primarily for packaging and deployment. It will contain the applicaiton startup code, 
+a lightweight container primarily for packaging and deployment. It will contain the application startup code, 
 configuration, DI etc. that is not necessary for unit tests.
 
 ### Building the extension
