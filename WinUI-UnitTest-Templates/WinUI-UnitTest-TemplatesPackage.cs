@@ -24,8 +24,8 @@ namespace WinUIUnitTestTemplates
     /// </para>
     /// </remarks>
     [PackageRegistration(UseManagedResourcesOnly = true, AllowsBackgroundLoading = true)]
-    [Guid(WinUI_UnitTestTemplatesPackage.PackageGuidString)]
-    public sealed class WinUI_UnitTestTemplatesPackage : AsyncPackage
+    [Guid(WinUIUnitTestTemplatesPackage.PackageGuidString)]
+    public sealed class WinUIUnitTestTemplatesPackage : AsyncPackage
     {
         /// <summary>
         /// WinUIUnitTestTemplates GUID string.

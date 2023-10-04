@@ -6,9 +6,9 @@ $templates = Get-ChildItem -Path $projectTemplatesFolder | Select-Object -Expand
 foreach ($folder in $templates){
 	echo "Compress Folder: $folder";
 	
-	if(Test-Path "./WinUI_UnitTestTemplates/ProjectTemplates/$folder.zip"){
-		Remove-Item "./WinUI_UnitTestTemplates/ProjectTemplates/$folder.zip"
+	if(Test-Path "./WinUI-UnitTest-Templates/ProjectTemplates/$folder.zip"){
+		Remove-Item "./WinUI-UnitTest-Templates/ProjectTemplates/$folder.zip"
 	}
 	
-	Compress-Archive -Path "$projectTemplatesFolder/$folder" -Destination "./WinUI_UnitTestTemplates/ProjectTemplates/$folder.zip"
+	Compress-Archive -Path "$projectTemplatesFolder/$folder" -Destination "./WinUI-UnitTest-Templates/ProjectTemplates/$folder.zip"
 }
