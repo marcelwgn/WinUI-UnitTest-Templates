@@ -38,7 +38,7 @@
 			<Version>3.2.2</Version>
 		</PackageReference>
 		<PackageReference Include="MSTest.TestFramework">
-			<Version>3.1.1</Version>
+			<Version>3.2.2</Version>
 		</PackageReference>
 		<PackageReference Include="Microsoft.TestPlatform.TestHost">
 			<Version>17.9.0</Version>
